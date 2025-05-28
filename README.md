@@ -46,6 +46,44 @@ A interface foi projetada com base em um protótipo no Figma, acessível [aqui](
   Fornece orientações e exemplos para facilitar o uso.
 
 ---
+## 🚀 Como Executar o Código
+
+1. **Clone o Repositório**  
+Primeiro, faça o download do projeto para o seu computador:
+  ```
+  git clone https://github.com/Gabriella-Pio/PI_Math01.2025.git
+  ```
+
+
+2. **Crie e Ative um Ambiente Virtual**  
+Certifique-se de criar e ativar um ambiente virtual para isolar as dependências do projeto:
+
+- **Linux/Mac:**
+  ```
+  python3 -m venv myenv
+  source myenv/bin/activate
+  ```
+- **Windows:**
+  ```
+  python -m venv myenv
+  myenv\Scripts\activate
+  ```
+
+3. **Instale as Dependências**  
+Com o ambiente virtual ativado, instale as bibliotecas necessárias para o projeto:
+  ```
+  pip install -r requirements.txt
+  ```
+
+4. **Execute o Código**  
+Inicie a aplicação:
+  ```
+  python calculator.py
+  ```
+
+A calculadora abrirá em uma janela gráfica. Agora você pode realizar cálculos de derivadas e integrais diretamente na interface.
+
+---
 
 ## 📖 Documentação
 
