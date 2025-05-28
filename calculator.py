@@ -161,6 +161,7 @@ Consulte a documentação ou peça ajuda ao desenvolvedor.
 """
     ctk.CTkLabel(ajuda, font=fonte_menor, text=texto, justify="left", wraplength=280).pack(padx=10, pady=10)
 
+# Função para limpar os dados já inseridos
 def limpar_tudo():
     entrada.delete(0, 'end')
     limite_inf.delete(0, 'end')
