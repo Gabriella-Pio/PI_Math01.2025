@@ -6,14 +6,14 @@ import re  # Biblioteca para manipulação de expressões regulares
 # Configuração da aparência da interface
 ctk.set_appearance_mode("dark")  # Define o modo escuro para a interface
 ctk.set_default_color_theme("blue")  # Define o tema de cor azul
-fonte_titulo = ("Arial", 18, "bold")  # Fonte para títulos
-fonte_padrao = ("Arial", 16)  # Fonte padrão para textos
-fonte_menor = ("Arial", 14)  # Fonte para textos menores
+fonte_titulo = ("Arial", 38, "bold")  # Fonte para títulos
+fonte_padrao = ("Arial", 36)  # Fonte padrão para textos
+fonte_menor = ("Arial", 34)  # Fonte para textos menores
 
 # Criação da janela principal
 janela = ctk.CTk()  # Inicializa a janela principal da interface
 janela.title("Calculadora de Derivada e Integral")  # Define o título exibido na barra superior
-janela.geometry("440x800")  # Define as dimensões iniciais da janela
+janela.geometry("1024x1080")  # Define as dimensões iniciais da janela
 
 # Declaração da variável simbólica para cálculos matemáticos
 x = symbols('x')  # Variável padrão usada nos cálculos
